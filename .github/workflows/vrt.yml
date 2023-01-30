@@ -15,6 +15,6 @@ jobs:
           node-version: 16.x
 
       - name: Lost Pixel
-        uses: lost-pixel@feat/extend-api-log
+        uses: lost-pixel/lost-pixel@feat/extend-api-log
         env:
           LOST_PIXEL_API_KEY: ${{ secrets.LOST_PIXEL_API_KEY }}
