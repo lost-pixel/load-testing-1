@@ -17,6 +17,6 @@ jobs:
           node-version: 16.x
 
       - name: Lost Pixel
-        uses: lost-pixel/lost-pixel@feature/file-api-url
+        uses: lost-pixel/lost-pixel@fix/single-commit-prs
         env:
           LOST_PIXEL_API_KEY: ${{ secrets.LOST_PIXEL_API_KEY }}
